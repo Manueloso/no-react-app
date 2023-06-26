@@ -23,10 +23,10 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Manuel",
+    lastName: "Rega",
+    initials: "MR", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a Web Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -37,15 +37,15 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in Italy'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Student @ Apple Developer Academy"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "me@emanuele.tech"
         }
     ],
     socials: [
@@ -60,7 +60,7 @@ export const info = {
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/manueloso",
             icon: "fa fa-github",
             label: 'github'
         },
@@ -78,7 +78,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Manuel. I'm a student at the Apple Developer Academy in Napoli. I studied CompSci in High School, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
@@ -107,34 +107,22 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
+            title: "Presentazione PCTO",
             live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            image: pcto
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "EyeVisionX",
+            live: "https://eyevisionx.com",
+            source: "https://github.com/manueloso",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Sfregio",
+            live: "https://sfregio.com",
+            source: "https://github.com/manueloso",
             image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
         }
     ]
 }
