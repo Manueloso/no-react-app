@@ -108,8 +108,8 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Presentazione PCTO",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://docs.google.com/presentation/d/1l7rcTsP9OASznNlvpaeyv9w4usU_CgdT0UOGFLvT0j4/edit?usp=sharing", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/manueloso", // this should be a link to the **repository** of the project, where the code is hosted.
             image: pcto
         },
         {
